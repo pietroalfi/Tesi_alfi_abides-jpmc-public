@@ -235,7 +235,6 @@ class SubGymMarketsDailyInvestorEnv_v0(AbidesGymMarketsEnv):
         bids = raw_state["parsed_mkt_data"]["bids"]
         asks = raw_state["parsed_mkt_data"]["asks"]
         last_transactions = raw_state["parsed_mkt_data"]["last_transaction"]
-
         # 1) Holdings
         holdings = raw_state["internal_data"]["holdings"]
 
@@ -276,6 +275,7 @@ class SubGymMarketsDailyInvestorEnv_v0(AbidesGymMarketsEnv):
             + padded_returns.tolist(),
             dtype=np.float32,
         )
+        print(computed_state)
         return computed_state.reshape(self.num_state_features, 1)
 
     @raw_state_pre_process

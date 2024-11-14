@@ -5,7 +5,6 @@ from tqdm import tqdm
 import abides_gym
 
 if __name__ == "__main__":
-
     env = gym.make(
         "markets-execution-v0",
         background_config="rmsc04",
@@ -13,5 +12,11 @@ if __name__ == "__main__":
 
     env.seed(0)
     state = env.reset()
+    print("stato",state)
     for i in tqdm(range(5)):
+        
         state, reward, done, info = env.step(0)
+        print("stato",state)
+        print("reward",reward)
+        print("done",done)
+        print("info", info)

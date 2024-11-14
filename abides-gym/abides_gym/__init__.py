@@ -17,6 +17,22 @@ register(
 )
 
 
+register(
+    id="markets-mm-basic-v0",
+    entry_point='abides_gym.envs:SubGymMarketsMmBasicEnv_v0',
+)
+
+register(
+    id="markets-mm-riskav-v0",
+    entry_point='abides_gym.envs:SubGymMarketsMmRiskAvEnv_v0',
+)
+
+register(
+    id="markets-mm-riskav-v1",
+    entry_point='abides_gym.envs:SubGymMarketsMmRiskAvEnv_v1',
+)
+
+
 # REGISTER ENVS FOR RAY/RLLIB USE
 
 register_env(
@@ -27,4 +43,9 @@ register_env(
 register_env(
     "markets-execution-v0",
     lambda config: SubGymMarketsExecutionEnv_v0(**config),
+)
+
+register_env(
+    "markets-mm-basic-v0",
+    lambda config: SubGymMarketsMmBasicEnv_v0(**config),
 )

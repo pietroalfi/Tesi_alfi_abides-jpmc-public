@@ -1,0 +1,241 @@
+  0%|          | 0/30 [00:00<?, ?it/s]  7%|▋         | 2/30 [00:00<00:05,  4.79it/s] 10%|█         | 3/30 [00:00<00:04,  5.47it/s] 17%|█▋        | 5/30 [00:00<00:03,  7.16it/s] 23%|██▎       | 7/30 [00:00<00:02,  7.82it/s] 27%|██▋       | 8/30 [00:01<00:03,  6.86it/s] 30%|███       | 9/30 [00:01<00:02,  7.17it/s] 33%|███▎      | 10/30 [00:01<00:02,  6.85it/s] 37%|███▋      | 11/30 [00:01<00:02,  6.60it/s] 40%|████      | 12/30 [00:01<00:03,  5.78it/s] 47%|████▋     | 14/30 [00:02<00:02,  7.43it/s] 50%|█████     | 15/30 [00:02<00:02,  7.14it/s] 57%|█████▋    | 17/30 [00:02<00:01,  9.06it/s] 60%|██████    | 18/30 [00:02<00:01,  7.38it/s] 63%|██████▎   | 19/30 [00:02<00:01,  6.73it/s] 67%|██████▋   | 20/30 [00:03<00:01,  5.48it/s] 70%|███████   | 21/30 [00:03<00:01,  4.72it/s] 73%|███████▎  | 22/30 [00:03<00:01,  5.19it/s] 77%|███████▋  | 23/30 [00:03<00:01,  5.50it/s] 80%|████████  | 24/30 [00:03<00:00,  6.19it/s] 83%|████████▎ | 25/30 [00:03<00:00,  6.21it/s] 87%|████████▋ | 26/30 [00:04<00:00,  6.11it/s] 90%|█████████ | 27/30 [00:04<00:00,  6.03it/s] 93%|█████████▎| 28/30 [00:04<00:00,  5.99it/s] 97%|█████████▋| 29/30 [00:04<00:00,  5.79it/s]100%|██████████| 30/30 [00:04<00:00,  5.43it/s]100%|██████████| 30/30 [00:04<00:00,  6.25it/s]
+Old Mid-Price: 100020.5
+Mid-Price: 100024.5
+Delta-Mid-Price: 4.0
+Inventory: -100
+Execution_PnL: -150.0
+Inventory_PnL: -400.0
+Cash: 11002300
+reward -0.007051282051282051
+Old Mid-Price: 100024.5
+Mid-Price: 100042.5
+Delta-Mid-Price: 18.0
+Inventory: -200
+Execution_PnL: -1550.0
+Inventory_PnL: -3600.0
+Cash: 21005000
+reward -0.06602564102564103
+Old Mid-Price: 100042.5
+Mid-Price: 100040.5
+Delta-Mid-Price: -2.0
+Inventory: -100
+Execution_PnL: 150.0
+Inventory_PnL: 200.0
+Cash: 11000800
+reward 0.004487179487179487
+Old Mid-Price: 100040.5
+Mid-Price: 100040.5
+Delta-Mid-Price: 0.0
+Inventory: 0
+Execution_PnL: -50.0
+Inventory_PnL: 0.0
+Cash: 996800
+reward -0.000641025641025641
+Old Mid-Price: 100040.5
+Mid-Price: 100041.5
+Delta-Mid-Price: 1.0
+Inventory: 100
+Execution_PnL: -150.0
+Inventory_PnL: 100.0
+Cash: -9007200
+reward -0.000641025641025641
+Old Mid-Price: 100041.5
+Mid-Price: 100042.5
+Delta-Mid-Price: 1.0
+Inventory: 100
+Execution_PnL: 0
+Inventory_PnL: 100.0
+Cash: -9007200
+reward 0.001282051282051282
+Old Mid-Price: 100042.5
+Mid-Price: 100045.5
+Delta-Mid-Price: 3.0
+Inventory: 100
+Execution_PnL: -400.0
+Inventory_PnL: 300.0
+Cash: -9006900
+reward -0.001282051282051282
+Old Mid-Price: 100045.5
+Mid-Price: 100048.5
+Delta-Mid-Price: 3.0
+Inventory: 0
+Execution_PnL: -50.0
+Inventory_PnL: 0.0
+Cash: 997900
+reward -0.000641025641025641
+Old Mid-Price: 100048.5
+Mid-Price: 100046.5
+Delta-Mid-Price: -2.0
+Inventory: 100
+Execution_PnL: 150.0
+Inventory_PnL: -200.0
+Cash: -9006900
+reward -0.000641025641025641
+Old Mid-Price: 100046.5
+Mid-Price: 100046.5
+Delta-Mid-Price: 0.0
+Inventory: 200
+Execution_PnL: -50.0
+Inventory_PnL: 0.0
+Cash: -19011500
+reward -0.000641025641025641
+Old Mid-Price: 100046.5
+Mid-Price: 100046.5
+Delta-Mid-Price: 0.0
+Inventory: 300
+Execution_PnL: -50.0
+Inventory_PnL: 0.0
+Cash: -29016100
+reward -0.000641025641025641
+Old Mid-Price: 100046.5
+Mid-Price: 100052.5
+Delta-Mid-Price: 6.0
+Inventory: 200
+Execution_PnL: -350.0
+Inventory_PnL: 1200.0
+Cash: -19011200
+reward 0.010897435897435897
+Old Mid-Price: 100052.5
+Mid-Price: 100052.5
+Delta-Mid-Price: 0.0
+Inventory: 223
+Execution_PnL: 142.5
+Inventory_PnL: 0.0
+Cash: -21312165
+reward 0.001826923076923077
+Old Mid-Price: 100052.5
+Mid-Price: 100053.5
+Delta-Mid-Price: 1.0
+Inventory: 323
+Execution_PnL: -150.0
+Inventory_PnL: 323.0
+Cash: -31317365
+reward 0.002217948717948718
+Old Mid-Price: 100053.5
+Mid-Price: 100055.5
+Delta-Mid-Price: 2.0
+Inventory: 323
+Execution_PnL: 0
+Inventory_PnL: 646.0
+Cash: -31317365
+reward 0.008282051282051282
+Old Mid-Price: 100055.5
+Mid-Price: 100055.5
+Delta-Mid-Price: 0.0
+Inventory: 323
+Execution_PnL: 0
+Inventory_PnL: 0.0
+Cash: -31317365
+reward 0.0
+Old Mid-Price: 100055.5
+Mid-Price: 100064.5
+Delta-Mid-Price: 9.0
+Inventory: 223
+Execution_PnL: -650.0
+Inventory_PnL: 2007.0
+Cash: -21311565
+reward 0.0173974358974359
+Old Mid-Price: 100064.5
+Mid-Price: 100066.5
+Delta-Mid-Price: 2.0
+Inventory: 223
+Execution_PnL: 0
+Inventory_PnL: 446.0
+Cash: -21311565
+reward 0.005717948717948718
+Old Mid-Price: 100066.5
+Mid-Price: 100067.5
+Delta-Mid-Price: 1.0
+Inventory: 223
+Execution_PnL: 0
+Inventory_PnL: 223.0
+Cash: -21311565
+reward 0.002858974358974359
+Old Mid-Price: 100067.5
+Mid-Price: 100066.5
+Delta-Mid-Price: -1.0
+Inventory: 283
+Execution_PnL: -30.0
+Inventory_PnL: -283.0
+Cash: -27315525
+reward -0.004012820512820513
+Old Mid-Price: 100066.5
+Mid-Price: 100065.5
+Delta-Mid-Price: -1.0
+Inventory: 383
+Execution_PnL: 50.0
+Inventory_PnL: -383.0
+Cash: -37322125
+reward -0.004269230769230769
+Old Mid-Price: 100065.5
+Mid-Price: 100065.5
+Delta-Mid-Price: 0.0
+Inventory: 383
+Execution_PnL: 0
+Inventory_PnL: 0.0
+Cash: -37322125
+reward 0.0
+Old Mid-Price: 100065.5
+Mid-Price: 100063.5
+Delta-Mid-Price: -2.0
+Inventory: 483
+Execution_PnL: 50.0
+Inventory_PnL: -966.0
+Cash: -47328525
+reward -0.011743589743589744
+Old Mid-Price: 100063.5
+Mid-Price: 100056.5
+Delta-Mid-Price: -7.0
+Inventory: 583
+Execution_PnL: 550.0
+Inventory_PnL: -4081.0
+Cash: -57334725
+reward -0.04526923076923077
+Old Mid-Price: 100056.5
+Mid-Price: 100056.0
+Delta-Mid-Price: -0.5
+Inventory: 683
+Execution_PnL: 0.0
+Inventory_PnL: -341.5
+Cash: -67340325
+reward -0.004378205128205128
+Old Mid-Price: 100056.0
+Mid-Price: 100056.0
+Delta-Mid-Price: 0.0
+Inventory: 683
+Execution_PnL: 0
+Inventory_PnL: 0.0
+Cash: -67340325
+reward 0.0
+Old Mid-Price: 100056.0
+Mid-Price: 100064.5
+Delta-Mid-Price: 8.5
+Inventory: 583
+Execution_PnL: -350.0
+Inventory_PnL: 4955.5
+Cash: -57334225
+reward 0.05904487179487179
+Old Mid-Price: 100064.5
+Mid-Price: 100076.5
+Delta-Mid-Price: 12.0
+Inventory: 483
+Execution_PnL: -950.0
+Inventory_PnL: 5796.0
+Cash: -47327525
+reward 0.062128205128205126
+Old Mid-Price: 100076.5
+Mid-Price: 100095.5
+Delta-Mid-Price: 19.0
+Inventory: 483
+Execution_PnL: -3300.0
+Inventory_PnL: 9177.0
+Cash: -47326525
+reward 0.07534615384615385
+Old Mid-Price: 100095.5
+Mid-Price: 100097.5
+Delta-Mid-Price: 2.0
+Inventory: 483
+Execution_PnL: -300.0
+Inventory_PnL: 966.0
+Cash: -47326125
+reward 0.008538461538461538

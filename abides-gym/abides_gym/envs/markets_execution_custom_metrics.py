@@ -2,7 +2,7 @@ from collections import defaultdict
 from typing import Dict
 
 import numpy as np
-from ray.rllib.agents.callbacks import DefaultCallbacks
+#from ray.rllib.algorithms.callbacks import DefaultCallbacks
 from ray.rllib.agents.callbacks import DefaultCallbacks
 from ray.rllib.env import BaseEnv
 from ray.rllib.evaluation import MultiAgentEpisode, RolloutWorker
@@ -14,6 +14,24 @@ class MyCallbacks(DefaultCallbacks):
     """
     Class that defines callbacks for the execution environment
     """
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.RELEVANT_KEYS = [
+            "slippage_reward",
+            "late_penalty_reward",
+            "executed_quantity",
+            "remaining_quantity",
+            "action_counter",
+            "holdings_pct",
+            "num_max_steps_per_episode",
+            "time_pct",
+            "diff_pct",
+            "imbalance_all",
+            "imbalance_5",
+            "price_impact",
+            "spread",
+            "direction_feature",
+        ]
 
     def on_episode_start(
         self,
@@ -47,8 +65,10 @@ class MyCallbacks(DefaultCallbacks):
             "ERROR: `on_episode_start()` callback should be called right "
             "after env reset!"
         )
-
+        # create lists to store info (in user_data and hist_data [MISSING])
         episode.user_data = defaultdict(default_factory=list)
+        for key in self.RELEVANT_KEYS:
+           episode.user_data[key] = []
 
     def on_episode_step(
         self,
@@ -83,7 +103,6 @@ class MyCallbacks(DefaultCallbacks):
         )
 
         agent0_info = episode._agent_to_last_info["agent0"]
-
         for k, v in agent0_info.items():
             episode.user_data[k].append(v)
 

@@ -13,5 +13,11 @@ if __name__ == "__main__":
 
     env.seed(0)
     state = env.reset()
+    print("stato",state)
+    
     for i in tqdm(range(5)):
         state, reward, done, info = env.step(0)
+        print("stato",state)
+        print("reward",reward)
+        print("done",done)
+        print("info", info)
