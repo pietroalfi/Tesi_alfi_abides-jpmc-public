@@ -23,6 +23,11 @@ register(
 )
 
 register(
+    id="markets-mm-basic-v01",
+    entry_point='abides_gym.envs:SubGymMarketsMmBasicEnv_v01',
+)
+
+register(
     id="markets-mm-riskav-v0",
     entry_point='abides_gym.envs:SubGymMarketsMmRiskAvEnv_v0',
 )
@@ -48,4 +53,9 @@ register_env(
 register_env(
     "markets-mm-basic-v0",
     lambda config: SubGymMarketsMmBasicEnv_v0(**config),
+)
+
+register_env(
+    "markets-mm-riskav-v0",
+    lambda config: SubGymMarketsMmRiskAvEnv_v0(**config),
 )
