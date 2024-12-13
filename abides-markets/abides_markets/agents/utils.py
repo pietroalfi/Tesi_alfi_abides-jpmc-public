@@ -1,6 +1,7 @@
 from copy import deepcopy
 from typing import Any, Dict, List, Optional, Tuple
 from ..price_level import PriceLevel
+import numpy as np
 
 
 ################## STATE MANIPULATION ###############################
@@ -211,3 +212,48 @@ def get_imbalance(
         return bid_vol / (bid_vol + ask_vol)
     else:
         return ask_vol / (bid_vol + ask_vol)
+
+def get_volumes(
+    bids: List[PriceLevel],
+    asks: List[PriceLevel],
+    depth: Optional[int] = None,
+) -> List[int]:
+    """
+    utility to compute the volumes between the top of the book and the depth-th value of depth
+
+    Arguments:
+        - bids: list of list snapshot of bid side
+        - asks: list of list snapshot of ask side
+        - depth: depth used to compute sum of the volume
+
+    Returns:
+        - bid_volume
+        - ask_volume
+    """
+    # None corresponds to the whole book depth
+    if (bids == []) and (asks == []):
+        return [0, 0]
+    else:
+        if depth == None:
+            bid_vol = sum([v[1] for v in bids])
+            ask_vol = sum([v[1] for v in asks])
+        else:
+            bid_vol = sum([v[1] for v in bids[:depth]])
+            ask_vol = sum([v[1] for v in asks[:depth]])
+    return [bid_vol, ask_vol]
+
+def rsi_index(mid_prices: List[float]) -> float:
+    if len(mid_prices)>1:
+     deltas = np.diff(mid_prices)
+    
+     avg_gain = np.mean(np.where(deltas > 0, deltas, 0))
+     avg_loss = np.mean(np.where(deltas < 0, -deltas, 0))
+    
+     if avg_loss == 0:
+         return 100  
+     else:
+         rs = avg_gain / avg_loss
+         rsi = 100 - (100 / (1 + rs))
+         return rsi
+    else:
+        return 50
